@@ -52,10 +52,16 @@ Latihan 2.
 - Buat program untuk mencari number terbesar dari 3 variable
 - print variabel terbesar tersebut
 
+a = 15
+b = 8 
+c = 20
+
+
+
 Latihan 3. 
 - Buat program untuk menghitung konversi Suhu dari celcius ke fahrenheit, celcius ke reamur, dan celcius ke kelvin
 - buat inputan suhu celciusnya menggunakan method input()
-- jangan lupa konversi ke floa. karene input selalu bertipe string 
+- jangan lupa konversi ke float karene input selalu bertipe string 
 - print pilihan tujuan konversi, misal : 
     Pilih Tujuan Konversi
     1: Fahrenheit
