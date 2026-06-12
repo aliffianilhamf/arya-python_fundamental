@@ -23,11 +23,12 @@ for i in range(5, 0, -1):
     
 # latihan bintang 3
 jumlah_bintang = 5
-for bintang in range(1, jumlah_bintang + 1): 
-    spasi = jumlah_bintang - bintang 
+for i in range(1, jumlah_bintang + 1): 
+    spasi = jumlah_bintang - i 
+    bintang = (2 * i) - 1
     print(f"{' ' * spasi}{'*' * bintang}")
     
-# latihan bintang 5
+# latihan bintang 4
 jumlah_baris = 5
 for i in range(1, jumlah_baris + 1): 
     spasi = jumlah_baris - i 
