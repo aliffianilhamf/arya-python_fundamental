@@ -162,7 +162,7 @@ print(f"Isi list Pangkat numbers menggunakan for biasa : {pangkat_numbers}")
 pangkat_numbers = [number ** 2 for number in numbers]
 print(f"Isi list Pangkat numbers menggunakan list comprehension : {pangkat_numbers}")
 
-my_numbers = [ 100, 151, 200, 251, 300]
+my_numbers = [ 100, 151, 200, 251, 100]
 my_numbers_ganjil = [ item if item % 2 == 1 else "genap" for item in my_numbers]
 my_numbers_ganjil = [ item for item in my_numbers if item % 2 == 1 ]
 print(my_numbers_ganjil)
